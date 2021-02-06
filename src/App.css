@@ -1,4 +1,6 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -35,4 +37,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  background-color: antiquewhite;
+  display: inline;
+  padding: 24px;
+}
+
+.card .tile {
+  padding: 6px;
+  background-color: azure;
 }
